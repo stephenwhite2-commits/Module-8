@@ -96,7 +96,7 @@ def print_menu(cart: ShoppingCart):
                 cart.add_item(item)
             except ValueError:
                 print("Invalid input for price or quantity. Please enter valid numbers.")
-
+        # Remove Item from Cart already added, accomplished step 9.
         elif option == 'r':
             print("\nREMOVE ITEM FROM CART")
             name = input("Enter name of item to remove:\n")
