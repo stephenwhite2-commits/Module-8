@@ -128,7 +128,7 @@ def print_menu(cart: ShoppingCart):
         else:
             print("Invalid option, please try again.")
 
-# Main function
+# Main function, this accomplishes Step 7
 if __name__ == "__main__":
     # Prompt for customer name and date
     customer_name = input("Enter customer's name:\n")
@@ -136,7 +136,7 @@ if __name__ == "__main__":
     print(f"\n Customer name: {customer_name}")
     print(f"Today's date: {current_date}\n")
 
-    # Create ShoppingCart
+    # Create ShoppingCart, this accomplishes Step 7
     cart = ShoppingCart(customer_name, current_date)
 
     # Print cart
