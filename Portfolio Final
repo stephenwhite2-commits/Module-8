@@ -101,7 +101,7 @@ def print_menu(cart: ShoppingCart):
             print("\nREMOVE ITEM FROM CART")
             name = input("Enter name of item to remove:\n")
             cart.remove_item(name)  
-
+        # Change item quantity. Accomplished step 10.
         elif option == 'c':
             print("\nCHANGE ITEM QUANTITY")
             name = input("Enter the item name:\n")
