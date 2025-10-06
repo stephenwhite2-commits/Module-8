@@ -84,7 +84,7 @@ def print_menu(cart: ShoppingCart):
     while option != 'q':
         print(menu)
         option = input("Choose an option:\n").strip().lower()
-
+        # Add Item to cart, this accomplishes step 8
         if option == 'a':
             print("\nADD ITEM TO CART")
             item = ItemToPurchase()
